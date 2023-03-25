@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Rubik:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +21,7 @@ h2{
     height: 40px;
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 100px;
     font-size: 30px;
     line-height: 40px;
     color: #000000;
@@ -32,23 +32,24 @@ h2{
     margin-left: 40px;
 }
 
-#logo {
+#logo h1{
     font-family: "Nunito";
     text-decoration: none;
     color: #3E3F43;
     position: absolute;
     align-items: center;
-    font-weight: 700;
-    left: 78px;
-    top: 40px;
+    font-weight: 100px;
+    font-size: 24px;
+    left: 80px;
+    top: 42px;
 }
 
 #logo img{
     position: absolute;
-    width: 67px;
-    height: 67px;
-    left: 80px;
-    top: 2px;
+    width: 33px;
+    height: 33px;
+    left: 40px;
+    top: 41px;
 }
 
 
@@ -67,26 +68,30 @@ h2{
     top: 83px;
     margin-left:0px;
     border-radius: 150px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.10);
     left: 40px;
     background-color: #f9f3f3;
 }
 
 
-.upper div h2{
-    width: 530px;
-    height: 98px;
+.upper p{
+    position: absolute;
+    width: 700px;
     left: 506px;
     top: 83px;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 49px;
+    font-weight: 400;
+    font-size: 34px;
     color: #3E3F43;
 }
 
-.upper div h3{
+.highlight{
+    font-weight: 900;
+    font-size: 34px;
+}
+
+.upper h3{
     position: absolute;
     width: 448px;
     height: 66px;
@@ -95,8 +100,8 @@ h2{
 
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 26px;
     line-height: 33px;
 
     color: #000000;
@@ -137,6 +142,7 @@ h2{
     width: 200px;
     height: 264px;
     top: 1320px;
+    
 }
 
 .exercises h4{
@@ -217,7 +223,7 @@ h2{
 
 .languages{
     position: absolute;
-    top: 1670px;
+    top: 1660px;
     width: 364px;
 }
 
@@ -244,17 +250,77 @@ h2{
     height: 508px;
     left: 40px;
     top: 1975px;
-    background: #F9BDBD;
+    background: #dad9d9;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.00);   
 }
 
-.myChoice div:hover{
+
+
+.myChoice img:hover{
     animation: pulse 2s infinite;
     animation-iteration-count: 2;
+
 }
 
+.myChoice div img{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
 
+#hobbies1, #hobbies:hover{
+    top: 10px;
+    left: 10px;
+}
+
+#hobbies2{
+    top: 237px;
+    left: 25px;
+}
+
+#hobbies3{
+    top: 10px;
+    left: 40px;
+}
+
+#hobbies4{
+    top: 237px;
+    left: 58px;
+}
+
+#hobbies5{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    top: 290px;
+    left: 10px;
+}
+
+#hobbies6{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    top: 10px;
+    left: 290px;
+}
+
+#hobbies7{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    top: 297px;
+    left: 570px;
+}
+
+#hobbies8{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    top: 10px;
+    left: 850px;
+}
 
 @keyframes pulse {
     0% {
